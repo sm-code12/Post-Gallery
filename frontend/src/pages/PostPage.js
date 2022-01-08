@@ -27,20 +27,22 @@ const PostPage = () => {
     return (
         <>
         <div className='post-'>
-        <div>
+        <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
         <h1>{post.title}</h1>
         </div>
         
         
-        <div>
-        <img src={post.image} />
+        <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
+        <img src={post.image} width={500} height={300}/>
+
             </div>
             <div>
-            <p>{post.text}</p>
-            </div>
-<div>
 <LikesSection postName={name} likes={postInfo.likes} setPostInfo={setPostInfo} />
 </div>
+            <div style={{padding: 20}}> 
+            <p>{post.text}</p>
+            </div>
+
         </div>
         
 

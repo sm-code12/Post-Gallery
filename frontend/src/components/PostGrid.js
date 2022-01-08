@@ -34,7 +34,8 @@ const PostGrid = ({posts}) => {
                 <Card.Body>
                 <Card.Title>{post.title}</Card.Title>
                 <Card.Text>
-                    {post.text}
+                <p>{post.text[0].substring(0, 150)}...</p>
+                   
                 </Card.Text>
                 
                 </Card.Body>

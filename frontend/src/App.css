@@ -31,6 +31,7 @@ button {
 
 h3, h4 {
   margin-bottom: 0;
+  margin-left:  16px;
 }
 h1 {
   text-align: "center";
@@ -43,7 +44,10 @@ post- {
 
 
 
-
+center {
+  display: block;
+  margin: 0 auto;
+}
 
 
 #add-comment-form {
@@ -70,9 +74,10 @@ post- {
   width: 200px;
 }
 
-#upvotes-section button, p {
+#likes-section button, p {
   display: inline-block;
   margin-right: 16px;
+  margin-left: 16px;
 }
 
 .comment {
